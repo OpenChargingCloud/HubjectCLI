@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubjectCLI", "HubjectCLI\HubjectCLI.csproj", "{4E061E14-079B-46D6-9533-483D83235644}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{B2F1C68D-EA68-4F0A-90C7-E53695731799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWCP_OICPv2.3", "libs\WWCP_OICP\WWCP_OICPv2.3\WWCP_OICPv2.3.csproj", "{337CE1CC-2C12-4E1D-81FF-9E521C27D4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermod", "libs\Hermod\Hermod\Hermod.csproj", "{477EFD16-3627-4473-957D-44CA9A9DFB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styx", "libs\Styx\Styx\Styx.csproj", "{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crypto", "libs\BouncyCastle\crypto\crypto.csproj", "{38872A5F-E87E-4FAD-B109-8EB7B2E6A4A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E061E14-079B-46D6-9533-483D83235644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E061E14-079B-46D6-9533-483D83235644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E061E14-079B-46D6-9533-483D83235644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E061E14-079B-46D6-9533-483D83235644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337CE1CC-2C12-4E1D-81FF-9E521C27D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337CE1CC-2C12-4E1D-81FF-9E521C27D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337CE1CC-2C12-4E1D-81FF-9E521C27D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337CE1CC-2C12-4E1D-81FF-9E521C27D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477EFD16-3627-4473-957D-44CA9A9DFB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477EFD16-3627-4473-957D-44CA9A9DFB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477EFD16-3627-4473-957D-44CA9A9DFB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477EFD16-3627-4473-957D-44CA9A9DFB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38872A5F-E87E-4FAD-B109-8EB7B2E6A4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38872A5F-E87E-4FAD-B109-8EB7B2E6A4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38872A5F-E87E-4FAD-B109-8EB7B2E6A4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38872A5F-E87E-4FAD-B109-8EB7B2E6A4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{337CE1CC-2C12-4E1D-81FF-9E521C27D4E6} = {B2F1C68D-EA68-4F0A-90C7-E53695731799}
+		{477EFD16-3627-4473-957D-44CA9A9DFB79} = {B2F1C68D-EA68-4F0A-90C7-E53695731799}
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4} = {B2F1C68D-EA68-4F0A-90C7-E53695731799}
+		{38872A5F-E87E-4FAD-B109-8EB7B2E6A4A0} = {B2F1C68D-EA68-4F0A-90C7-E53695731799}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B823F133-11AA-4685-9280-1D6ECDE076F8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+[submodule "libs/Styx"]
+	path = libs/Styx
+	url = ssh://git@git.graphdefined.com:5001/Vanaheimr/Styx.git
+[submodule "libs/Hermod"]
+	path = libs/Hermod
+	url = ssh://git@git.graphdefined.com:5001/Vanaheimr/Hermod.git
+[submodule "libs/BouncyCastle"]
+	path = libs/BouncyCastle
+	url = ssh://git@git.graphdefined.com:5001/Vanaheimr/BouncyCastle.git
+[submodule "libs/WWCP_OICP"]
+	path = libs/WWCP_OICP
+	url = ssh://git@git.graphdefined.com:5001/OpenChargingCloud/WWCP_OICP.git
